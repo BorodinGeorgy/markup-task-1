@@ -132,19 +132,23 @@
                 </code>
             </pre>
             <p>То есть это обычный массив из объектов. Каждый объект — отдельный ресурс. У
-                каждого объекта есть три свойства. <var>k</var> — названия ключа в <var>localStorage</var> для этого
-                ресурса. <var>p</var> — патч для ресурса, который сгенерировал <var>vcdiff</var>. <var>s</var> —
+                каждого объекта есть три свойства. <var>k</var> — названия ключа в
+                <var>localStorage</var> для этого
+                ресурса. <var>p</var> — патч для ресурса, который сгенерировал <var>vcdiff</var>.
+                <var>s</var> —
                 чексумма для ресурса актуальной версии, чтобы потом можно было проверить правильность
                 наложения патча на клиенте. Чексумма вычисляется по <em>алгоритму Флетчера</em>.</p>
             <p>Дано &epsilon;, <em>x<sub>0</sub></em><br>
                 Инициализировать <em>H<sub>0</sub></em><br>
                 <em>k</em> = 0<br>
                 while ||&nabla;<em>f<sub>k</sub></em>|| &gt; &epsilon;<br>
-                найти направление <em>p<sub>k</sub></em> = &minus;<em>C<sub>k</sub>&nabla;f<sub>k</sub></em><br>
+                найти направление <em>p<sub>k</sub></em> = &minus;<em>C<sub>k</sub>&nabla;
+                    f<sub>k</sub></em><br>
                 вычислить <em>x<sub>k&plus;1</sub></em> = <em>x<sub>k</sub></em> &plus;
                 &alpha;<em><sub>k</sub>p<sub>k</sub></em>, &alpha;<em><sub>k</sub></em>
                 удовлетворяет условиям Вольфе<br>
-                обозначить <em>s<sub>k</sub></em> = <em>x<sub>k&plus;1</sub></em> &minus; <em>x<sub>k</sub></em>
+                обозначить <em>s<sub>k</sub></em> = <em>x<sub>k&plus;1</sub></em>
+                &minus; <em>x<sub>k</sub></em>
                 и <em>y<sub>k</sub></em> = &nabla;<em>f<sub>k&plus;1</sub></em>
                 &minus; &nabla;<em>f<sub>k</sub></em><br>
                 вычислить <em>C<sub>k&plus;1</sub></em><br>
@@ -196,14 +200,16 @@
     <footer>
         <section>
             <h3>Комментарии (3):</h3>
-            <p class="comment_header">- Mogaika (<a href="mailto:mogaika@yandex-team.ru">mogaika@yandex-team.ru</a>)
+            <p class="comment_header">- Mogaika
+                (<a href="mailto:mogaika@yandex-team.ru">mogaika@yandex-team.ru</a>)
                 30 ноября 2014 в 17:05</p>
             <p class="comment_body">А можете привести сравнение, на сколько быстрее грузится lite версия?</p>
             <p class="comment_header">- JIguse (<a href="mailto:mrawesome@yandex.ru">mrawesome@yandex.ru</a>)
                 29 ноября 2014 в 21:30</p>
             <p class="comment_body">Спасибо за статью, познавательно. Здорово, что Яндекс делится некоторыми
                 подробностями о внутренней работе сервисов.</p>
-            <p class="comment_header">- Brister (<a href="mailto:brist89@yandex-team.ru">brist89@yandex-team.ru</a>)
+            <p class="comment_header">- Brister
+                (<a href="mailto:brist89@yandex-team.ru">brist89@yandex-team.ru</a>)
                 24 ноября 2014 в 13:13</p>
             <p class="comment_body">(кол-во счастливых пользователей + кол-во удовлетворенных / 2) /
                 (кол-во всех).
